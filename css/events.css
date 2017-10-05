@@ -1,0 +1,109 @@
+#site-content{padding:50px 50px 96px;position:relative;z-index:1}
+
+@media (max-width: 1024px){#site-content{padding:33px 15px 50px}}
+
+@media (max-width: 603px){#site-content{padding-top:29px}}
+
+@media (max-width: 380px){#site-content{padding-left:5px;padding-right:5px}}#site-content,#site-content *{box-sizing:border-box}
+
+.layout-wrap{margin-left:auto;margin-right:auto;max-width:1364px}
+
+@media (min-width: 1626px){
+    .rf-content--projects{width:1534px;}
+}
+
+@media (min-width: 1404px) and (max-width: 1625px){
+    .rf-content--projects{width:1312px}
+}
+
+@media (min-width: 1182px) and (max-width: 1403px){
+    .rf-content--projects{width:1090px}
+    .rf-project-cover {margin-right: %}
+    .rf-project-cover:nth-child(5n){margin-right:0}
+    .rf-project-cover:nth-child(1){margin-right:%}
+    .rf-featured-module{margin-right:0;-ms-flex-order:0;order:0}
+    .rf-project-cover:nth-child(1){-ms-flex-order:-2;order:-5}
+    .rf-project-cover:nth-child(2){-ms-flex-order:-2;order:-4}
+    .rf-project-cover:nth-child(3){-ms-flex-order:-3;order:-3}
+    .rf-project-cover:nth-child(4){-ms-flex-order:-2;order:-2}
+    .rf-project-cover:nth-child(5){-ms-flex-order:-1;order:-1}
+
+}
+
+@media (min-width: 960px) and (max-width: 1181px){
+    .rf-content--projects{width:868px}.rf-project-cover:nth-child(4n){margin-right:0}.rf-project-cover:nth-child(4){margin-right:20px}.rf-featured-module{margin-right:0;-ms-flex-order:0;order:0}.rf-project-cover:nth-child(2){-ms-flex-order:-3;order:-3}.rf-project-cover:nth-child(3){-ms-flex-order:-2;order:-2}.rf-project-cover:nth-child(4){-ms-flex-order:-1;order:-1}
+
+}@media (max-width: 380px){.rf-content--projects{width:305px}.rf-project-cover:nth-child(2n+1){margin-right:0}}
+
+@media (min-width: 604px) and (max-width: 737px){.rf-content--projects{width:424px}.rf-project-cover:nth-child(2n){margin-right:0}.rf-project-cover:nth-child(2){margin-right:20px}.rf-featured-module{margin-right:0;-ms-flex-order:0;order:0}.rf-project-cover:nth-child(2){-ms-flex-order:-1;order:-1}}
+
+@media (min-width: 738px) and (max-width: 959px){.rf-content--projects{width:646px}.rf-project-cover:nth-child(3n){margin-right:0}.rf-project-cover:nth-child(3){margin-right:20px}.rf-featured-module{margin-right:0;-ms-flex-order:0;order:0}.rf-project-cover:nth-child(2){-ms-flex-order:-2;order:-2}.rf-project-cover:nth-child(3){-ms-flex-order:-1;order:-1}}
+
+@media (min-width: 381px) and (max-width: 603px){.rf-content--projects{width:355px}.rf-project-cover:nth-child(2n+1){margin-right:0}}
+
+
+.cta-header{box-sizing:border-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;padding:0 20px;text-align:center;width:100%}
+
+.cta-header{
+    background:url("../images/sopboat3.jpg");
+    background-repeat: no-repeat;
+    background-position: -40px -85px  ;
+    color:#fff;height:455px}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx){
+    .cta-header{background-image:url("../images/sopboat3.jpg")}
+}
+
+@media (min-width: 604px) and (max-width: 1024px){.cta-header{height:160px}}
+
+@media (max-width: 603px){.cta-header{height:100px}}
+
+.cta-header{position:;top:120px;z-index:1}
+
+.cta-header-title{
+    font-size:60px;
+    font-weight:900;
+    line-height:1;
+    margin-top: -200px;
+    top: px;
+
+}
+
+@media (min-width: 604px) and (max-width: 1024px){
+    .cta-header-title{font-size:50px;line-height:50px}
+}
+
+@media (max-width: 603px){
+    .cta-header-title{font-size:28px;line-height:28px}
+}
+
+
+
+
+
+.rf-secondary-nav{top:0}
+
+.rf-secondary-nav{position:relative;top:0px}
+
+@media (min-width: 604px) and (max-width: 1024px){
+    .rf-secondary-nav{top:160px}}
+
+
+@media (max-width: 603px){.rf-secondary-nav{top:100px}}
+
+.rf-body--has-secondary-nav #site-content{
+    background-color:#f9f9f9;
+    margin-top:0px;
+    padding-left:0;
+    padding-right:0;z-index:2;}
+
+@media (min-width: 604px) and (max-width: 1024px){.logged-out.rf-body--has-secondary-nav #site-content{margin-top:160px}}
+
+@media (max-width: 603px){.logged-out.rf-body--has-secondary-nav #site-content{margin-top:100px}}
+
+.logged-in .rf-secondary-nav{top:60px}
+.rf-content--projects{margin:0 auto;padding-bottom:10px}
+
+.rf-project-covers{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+
+#site-content{overflow-x:hidden}
